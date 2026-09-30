@@ -1,0 +1,25 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ44nk3I52A4SvbVbx5O3KR9JF6D2NVHjrmXvXakFkQYg&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    color: rgb(212, 175, 55, 0.3);
+}
+
+.first{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    background-image: url(https://editorial.pxcrush.net/carsales/general/editorial/bmw-i8-roadster-078-y4id.jpg?width=1024&height=682);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.second{
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(red,blue);
+}

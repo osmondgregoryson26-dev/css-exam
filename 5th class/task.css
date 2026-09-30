@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-inline: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 10px lightgrey;
+}
+
+.head{
+    border-radius: 0;
+}
+
+a{
+    text-decoration: none;
+    margin: 1rem;
+    color: green;
+    transition: color 0.5;
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+button{
+    padding-inline: 15px;
+    padding-block: 5px;
+    margin-left: 50px;
+    color: navy;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}

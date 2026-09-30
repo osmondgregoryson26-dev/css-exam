@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    /* width: 800px; */
+    /* border: 1px solid */
+    display: flex;
+    flex-wrap: wrap;
+    /* row-gap: 10px;
+    column-gap: 30px; */
+    gap: 30px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: inline-flex; */
+}
+
+.one {
+    flex-grow: 1;
+}
+
+.six {
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+
+.five {
+    flex-shrink: 2;
+}

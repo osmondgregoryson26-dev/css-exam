@@ -1,0 +1,110 @@
+  h1{
+    background-color: red;
+    color:white;
+    padding-bottom: 50px;
+    padding-left: 67px;
+
+  }
+
+  h2{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 100px 0 0 5px;
+  }
+
+  p{
+    /* border-width: 5px;
+    border-style: dashed;
+    border-color: red; */
+    border: 2px dashed lightgray;
+    padding: 1rem;
+    color: grey;
+  }
+
+  div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin: auto;
+  }
+
+  .david {
+    margin: auto;
+    border: 1px solid blueviolet;
+    outline: 1px solid blue;
+    outline-offset: 2px;
+    /* border-radius: 20px; */
+    border-top-right-radius: 20px;
+    /* margin-bottom: 20px; */
+  }
+
+  .ahmed{
+    border: none;
+    margin-top: 20px;
+    border-color: red;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 2px 2px 5px purple;
+  }
+
+  .circle{
+    margin-top: 20px;
+    border-radius: 50%;
+  }
+
+  h4{
+    display: inline;
+    background-color: purple;
+  }
+/* 
+  span{
+    background-color: black;
+    color: white;
+    display: block;
+  } */
+
+  .circle ~ span{
+    margin-bottom: 1rem;
+  }
+
+  .div1{
+    width: auto;
+    height: fit-content;
+    background-color: lightgray;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 2px 2px 2px black;
+  }
+
+.cont{
+    width: auto;
+    height: fit-content;
+    display: inline-block;
+    background-color: lightgray;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 2px 2px 2px black;
+}
+
+.div2{
+    height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+
+.div2{
+    height: 300px;
+    width: 300px;
+    box-shadow: none;
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

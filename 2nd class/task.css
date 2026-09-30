@@ -1,0 +1,40 @@
+body{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    border: 2px rgb(red, green, blue);
+    border-radius: 30;
+    background-color: white;
+    width: 1000px;
+    align-items: center;
+}
+
+.wrapper h3 {
+    text-align: right;
+    padding-right: 30px;
+    font-family: sans-serif;
+}
+
+
+.image img {
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    align-items: center;
+    width: 700px;
+    height: 300px;
+}
+
+.wrapper p {
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.wrapper .text{
+    align-items: center;
+    width: 600px;
+}

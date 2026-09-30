@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.load {
+  width: 30px;
+  height: 30px;
+  border: 2px solid;
+  border-top: 2px solid white;
+  border-radius: 50%;
+  animation: load 1s infinite linear;
+}
+
+@keyframes load {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    border: 2px solid red;
+    border-top: 2px solid white;
+    /* border-color: aqua; */
+  }
+  75% {
+    border: 2px solid blue;
+    border-top: 2px solid white;
+    /* border-color: blue; */
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

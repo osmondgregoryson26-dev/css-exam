@@ -1,0 +1,54 @@
+body {
+    height: 400vh;
+}
+
+.parent {
+    width: 600px;
+    height: 600px;
+    border: 1px solid blue;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+}
+
+.one {
+    background-color: black;
+    /* position: absolute; */
+    position: relative;
+    /* top: 0; */
+    /* bottom: 0; */
+    /* right: 0; */
+    opacity: 0.8;
+    z-index: 3;
+}
+
+.two {
+    background-color: red;
+    position: relative;
+    top: -100px;
+    height: -100px;
+    z-index: 2;
+}
+
+.three {
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+.bolu {
+    height: 200vh;
+    background-color: purple;
+}
+
+.stick {
+    background-color: skyblue;
+    position: sticky;
+    top: 0;
+}
